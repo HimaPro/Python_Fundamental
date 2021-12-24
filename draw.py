@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-# 線分を引くために必要なnp.arrayを出力する
+# 線分を引くために必要なnp.arrayを出力する 
 def poly_data(data):
     pts = np.array(data,dtype=np.int32)
     return [pts]
