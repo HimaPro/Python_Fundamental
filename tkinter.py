@@ -136,11 +136,6 @@ canvas.create_line(
     activewidth=10,
     disabledwidth=5,
 
-    #枠線の色
-    outline="blue",
-    activeoutline="green",
-    disabledoutline="brown",
-
     # tkinter.NORMAL:通常, tkinter.DISABLED:無効, tkinter.HIDDEN:非表示
     state=tkinter.NORMAL,
 
@@ -209,8 +204,8 @@ canvas.create_text(
     # テキスト
     text="ここに文章を入力",
 
-    # フォントの設定
-    font="",
+    # フォントの設定(フォント名,サイズ)
+    font=("Menlo", 50),
     
     # タグ
     tag="rect_1",
@@ -224,10 +219,12 @@ canvas.create_text(
     activefill="red",
     disabledfill="pink",
 
-    #枠線の太さ
-    width=20,
-    activewidth=10,
-    disabledwidth=5,
+    #テキストの表示エリアの横幅
+    width=1000,
+
+    # 文字列の方向
+    # tkinter.LEFT:左揃え(デフォルト), tkinter.RIGHT:右揃え, tkinter.CENTER:中央揃え
+    justify=tkinter.LEFT,
 
     # tkinter.NORMAL:通常, tkinter.DISABLED:無効, tkinter.HIDDEN:非表示
     state=tkinter.NORMAL,
