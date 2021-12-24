@@ -6,3 +6,11 @@
 
 
 ## draw.py :【openCVで図形を描画する】- OpenCVを利用 
+![image](https://user-images.githubusercontent.com/50083409/146893646-da26fd74-8b95-4b38-bdc1-c43fa2885f3f.png)  
+  poly_data() --> リスト形式のデータを入力し、多角形用の[np.array]を出力する  
+  cv2.circle()  
+  cv2.rectangle()  
+  cv2.line()  
+  cv2.arrowedLine()  
+  cv2.putText()  
+  cv2.polylines()  
