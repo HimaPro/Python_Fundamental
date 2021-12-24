@@ -155,10 +155,10 @@ canvas.create_line(
     disableddash=(10,3),
 
     # tkinter.NONE:矢印なし, tkinter.FIRST:最初の点に矢印, tkinter.LAST:最後の点に矢印, tkinter.BOTH:両端に矢印
-    arrow=tkinter.BOTH
+    arrow=tkinter.BOTH,
 
     # 矢じりの形(棒から矢印の先端 < やじりの後ろの長さ, 矢じりの幅)
-    arrowshape=(20,20,10)
+    arrowshape=(20,20,10),
     )
 
 # 円弧を描画
@@ -175,7 +175,7 @@ canvas.create_arc(
     tag="rect_1",
 
     # tkinter.ARC:円弧, tkinter.PIESLICE:扇形(デフォルト), tkinter.CHORD:弦(弓矢のような形)
-    style=tkinter.ARC
+    style=tkinter.ARC,
 
     #枠線の太さ
     width=20,
@@ -204,18 +204,20 @@ canvas.create_arc(
 # テキストを描画
 canvas.create_text(
     # 基準位置の配置場所
-    100, 100
+    100, 100,
 
     # テキスト
-    text="ここに文章を入力"
+    text="ここに文章を入力",
 
-    font=
+    # フォントの設定
+    font="",
+    
     # タグ
     tag="rect_1",
 
     # 基準位置の設定
     # tkinter.CENTER:中央(デフォルト), tkinter.N:上, tkinter.E:右, tkinter.NW:左上, tkinter.SE:右下
-    anchor=tkinter.SW
+    anchor=tkinter.SW,
     
     #塗りつぶしの色を設定
     fill="orange",
