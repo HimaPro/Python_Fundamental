@@ -25,7 +25,6 @@ def Date_Str():
     2桁に統一した現在時刻を出力
     :return: YYYY, MM, DD, hh, mm, ss, ms
     """
-    # https://www.sejuku.net/blog/23606
 
     # 現在時刻と時間を整数として取得
     YYYY, MM, DD, hh, mm, ss, ms = Date_Int()
