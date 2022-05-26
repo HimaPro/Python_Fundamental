@@ -56,8 +56,8 @@ def Date_EachLog():
 def MakeLogFile(FolderName="log"):
     """
     最初にログファイルを作成するとき、そのファイル名を出力
-    :param FolderName: ディレクトリ名
-    :return: "LOG_20220524123456"
+    :param FolderName: 保存先のディレクトリ名
+    :return: ログファイルのパス"LOG_20220524123456"
     """
     YYYY, MM, DD, hh, mm, ss, ms = Date_Str()
 
@@ -93,7 +93,7 @@ if __name__ == '__main__':
     print("You Opened {0}".format(__file__))
     print("****************************\n")
 
-    filename = MakeLogFile("log") # 保存したいフォルダ・ファイル名を取得
+    filename = MakeLogFile("log") # 保存先のディレクトリを指定し、ログファイルのパスを取得
 
     data_list = [[1,2,3,4], "A", "B", "Message", True]  # 保存したいデータをリスト形式で格納
     WriteLog(filename, data_list)    # ファイル名とデータを使用してログデータを書き込む
