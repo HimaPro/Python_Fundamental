@@ -1,22 +1,9 @@
-# Python_Fundamental
+## Python_Fundamental
 
 ### 基本プログラムなど
 | *File Name*                                           | *Module*                            | *Description* |
 | ----------------------------------------------------- | ----------------------------------- | ------------------------------------------------ |
-|[**test.py**](/test.py)                      |`pyautogui`,`random`                 | *マウス・キーボードをコントロール* |
-|[**test.py**](/test.py)          |`time`,`pyautogui`                   | *マウスの速度や位置情報を取得* |
-
-## dijkstra.py :【最短経路を求める】- NetworkXを利用 
-  shortest_path() : グラフデータGを元に経路a,b間の最短ルートと最小コストを表示する  
-  ![image](https://user-images.githubusercontent.com/95124230/147343372-77eece2d-beb1-4607-8a2a-7ac59ac3fac4.png)  
-
-
-## draw.py :【openCVで図形を描画する】- OpenCVを利用  
-![image](https://user-images.githubusercontent.com/50083409/146893646-da26fd74-8b95-4b38-bdc1-c43fa2885f3f.png)  
-  poly_data() --> リスト形式のデータを入力し、多角形用の[np.array]を出力する  
-  cv2.circle()  
-  cv2.rectangle()  
-  cv2.line()  
-  cv2.arrowedLine()  
-  cv2.putText()  
-  cv2.polylines()  
+|[**dijkstra.py**](/dijkstra.py)                        |`networkx`                           | *最短経路を計算* |
+|[**draw.py**](/draw.py)                                |`cv2`,`numpy`                        | *画像上に図形を描画* |
+|[**tkinter.py**](/tkinter.py)                          |`tkinter`,`cv2`, `PIL`               | *GUI作成用tkinterのキャンパス上で図形を描画* |
+|[**logbook.py**](/logbook.py)                          |`datetime`,`os`                      | *ログ出力用のモジュール* |
