@@ -44,7 +44,7 @@ def Date_Str():
 
 def Date_EachLog():
     """
-    ログブック用の時間を出力(str)
+    ログファイル用の時間を出力(str)
     :return: 2022-05-24_12:34:56
     """
     YYYY, MM, DD, hh, mm, ss, ms = Date_Str()
