@@ -5,13 +5,16 @@
 ## ファイル構造
 ```
 main.py
+
 mypackage/ 
-  alpha/
-    mod3.py
-    mod4.py
+    
   __init__.py
   mod1.py
   mod2.py
+  
+  alpha/
+    mod3.py
+    mod4.py
 ```
 mypackage: モジュールを格納するパッケージ用のディレクトリ  
   alpha: 種類ごとにまとめたディレクトリ
