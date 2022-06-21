@@ -25,6 +25,8 @@ double(3) # 3*2を出力
 square(3) # 3^3を出力
 ```
 
+<br>
+
 ```py
 # __init__.py
 from mypackage.mod1 import *
