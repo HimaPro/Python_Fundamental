@@ -1,5 +1,6 @@
 # 自作パッケージの作り方
 
+[参考にしたサイト](https://dev.classmethod.jp/articles/python-create-package/)
 
 ## ファイル構造
 ```
