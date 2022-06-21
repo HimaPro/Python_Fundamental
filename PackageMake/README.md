@@ -6,11 +6,15 @@
 ```
 main.py
 mypackage/ 
+  alpha/
+    mod3.py
+    mod4.py
   __init__.py
   mod1.py
   mod2.py
 ```
 mypackage: モジュールを格納するパッケージ用のディレクトリ  
+  alpha: 種類ごとにまとめたディレクトリ
   __init__.py: パッケージのインポート設定  
   mod1.py: モジュール1を記述したファイル  
   mod2.py: モジュール2を記述したファイル  
@@ -23,6 +27,7 @@ main.py: 実行するメインのプログラム
 from mypackage import *
 double(3) # 3*2を出力
 square(3) # 3^3を出力
+three() # => "mod3 is called"
 ```
 
 <br>
@@ -31,6 +36,10 @@ square(3) # 3^3を出力
 # __init__.py
 from mypackage.mod1 import *
 from mypackage.mod2 import *
+
+# mypackageは省略可
+from .alpha.mod3 import *
+from .alpha.mod4 import * 
 ```
 
 ```py
@@ -43,6 +52,18 @@ def double(n):
 # mod2.py
 def square(n):
     print(n**2)
+```
+
+```py
+mod3.py
+def three():
+    print("mod3 is called")
+```
+
+```py
+mod4.py
+def four():
+    print("mod4 is called")
 ```
 
 ## パッケージのインストール方法
