@@ -58,13 +58,13 @@ def square(n):
 ```
 
 ```py
-mod3.py
+# alpha/mod3.py
 def three():
     print("mod3 is called")
 ```
 
 ```py
-mod4.py
+# alpha/mod4.py
 def four():
     print("mod4 is called")
 ```
