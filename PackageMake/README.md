@@ -44,7 +44,7 @@ def square(n):
 ```
 
 ## パッケージのインストール方法
-mypackageのフォルダを使用するPython.exeと同じ階層にあるLibに保存する。
+mypackageのフォルダを使用するPython.exeと同じ階層にあるLibフォルダに保存する。
 `C:\Users\userA\AppData\Local\Programs\Python\Python310\Lib`
 
 ## インストールしない場合
