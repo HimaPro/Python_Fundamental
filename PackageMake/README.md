@@ -29,7 +29,6 @@ main.py: 実行するメインのプログラム
 # main.py
 from mypackage import *
 double(3) # 3*2を出力
-square(3) # 3^3を出力
 three() # => "mod3 is called"
 ```
 
