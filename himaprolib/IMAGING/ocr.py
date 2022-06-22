@@ -1,5 +1,5 @@
 import pyocr
-from .colorchange import cv2pil
+from .color import cv2pil
 import os
 
 
